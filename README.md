@@ -1,25 +1,25 @@
-# GBseg-TCPython
-A demo code for calculating grain boundary segregation with Hillert's parallel tangent law using TC-Python.
+# Agent AI - Materials Science and Engineering
+A demo code of agent AI for calculating Gibbs energy of Fe alloys and phase decomposition by phase-field method.
 
 ## Installation
 
-This code itself does not require installation. However, it depends on [Thermo-Calc](https://thermocalc.com/) and [TC-Python](https://thermocalc.com/products/software-development-kits/tc-python/), so please install TC-Python first.
+The agent part is written by JupyterNotebook with libraly of LangGraph, and we used local LLM enviroment [Ollama](https://ollama.com/) with Qwen 3.8 as LLM model. So please install Ollama with Qwen 3.8 first.
 
 ## Run
 
-Running calculate.py will calculate and display the grain boundary segregation of Cantor alloy.
+Running JupyterNotebook code will calculate and display the Gibbs energy and phase decomposition.
 
 By default, the grain interior is set as FCC single-phase, but you can run the calculation considering other equilibrium phases by reversing the comment-outs in lines 13 and 14.
 
 ## Modification
 
-Grain boundary segregation for other alloys and conditions can also be calculated by modifying the code.
+This is a simple framework to construct the agent AI system which calculate the elemental programs in materials science and engineering.
 
-You can change target alloy, phases in grain interior, database and temperature range of the calculation by editing lines between 7 and 23.
+You can mofify the sample codes by relaceing the tools part to your original code.
 
 ## Reference
 
 If you use this code in your work, please cite the reference bellow.
 
-[M. Funamoto, Y. Matsuoka, Y. Tsukada and T. Koyama, Prediction of grain boundary chemistry in multicomponent alloys, Science and Technology of Advanced Materials: Methods, (2022).](https://doi.org/10.1080/27660400.2022.2112915) 
+[T. Koyama, Y. Matsuoka and A. Ishii, Simple implementation examples of agent AI in materials science and engineering: STAM-Methods, (2025).](https://doi.org/10.1080/27660400.2022.2112915) 
 
