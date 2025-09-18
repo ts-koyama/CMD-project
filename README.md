@@ -1,4 +1,4 @@
-# Agent AI - Materials Science and Engineering
+# Simple agent AI - Materials Science and Engineering
 A demo code of agent AI for calculating Gibbs energy of Fe alloys and phase decomposition by phase-field method.
 
 ## Installation
