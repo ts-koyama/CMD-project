@@ -1,25 +1,23 @@
 # Simple agent AI - Materials Science and Engineering
-A demo code of agent AI for calculating Gibbs energy of Fe alloys and phase decomposition by phase-field method.
+Demo code for an agent AI that calculates Gibbs energy of iron alloys using the CALPHAD method, or performs phase decomposition by the phase-field method.
 
 ## Installation
 
-The agent part is written by JupyterNotebook with libraly of LangGraph, and we used local LLM enviroment [Ollama](https://ollama.com/) with Qwen 3.8 as LLM model. So please install Ollama with Qwen 3.8 first.
+The agent parts are written in Jupyternotebook using the LangGraph library. The  [Ollama](https://ollama.com/) is used as the local LLM environment, and the qwen 3 model is employed as the the language model. Therefore, please install Ollama and Qwen 3 first.
 
 ## Run
 
-Running JupyterNotebook code will calculate and display the Gibbs energy and phase decomposition.
+Executing the code in the Jupyternotebook produces Gibbs energy or phase separation behavior.
 
-By default, the grain interior is set as FCC single-phase, but you can run the calculation considering other equilibrium phases by reversing the comment-outs in lines 13 and 14.
 
 ## Modification
 
-This is a simple framework to construct the agent AI system which calculate the elemental programs in materials science and engineering.
-
+This is a simple framework for constructing an agent AI system that calculates fundamental programs in materials science and engineering.
 You can mofify the sample codes by relaceing the tools part to your original code.
 
 ## Reference
 
 If you use this code in your work, please cite the reference bellow.
 
-[T. Koyama, Y. Matsuoka and A. Ishii, Simple implementation examples of agent AI in materials science and engineering: STAM-Methods, (2025).](https://doi.org/10.1080/27660400.2022.2112915) 
+[T. Koyama, Y. Matsuoka and A. Ishii, Simple implementation examples of agent AI in materials science and engineering: STAM-Methods, (2025).]() 
 
