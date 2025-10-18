@@ -1,4 +1,4 @@
-# Simple agent AI - Materials Science and Engineering
+# Simple agent AI - Gibbs energy calculation and phase-field simulation in materials science and engineering
 Demo code for an agent AI that calculates Gibbs energy of iron alloys using the CALPHAD method, or performs phase decomposition by the phase-field method.
 
 ## Installation
