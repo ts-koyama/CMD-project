@@ -12,7 +12,7 @@ Executing the code in the Jupyternotebook produces Gibbs energy or phase separat
 
 ## Modification
 
-This is a simple framework for constructing an agent AI system that calculates fundamental programs in materials science and engineering.
+This is a simple framework for constructing an agent AI system that calculates fundamental programs on free energy calculation and phase-field simulation.
 You can mofify the sample codes by relaceing the tools part to your original code.
 
 ## Reference
