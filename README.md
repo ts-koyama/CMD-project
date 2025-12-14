@@ -19,5 +19,5 @@ You can mofify the sample codes by relaceing the tools part to your original cod
 
 If you use this code in your work, please cite the reference bellow.
 
-[T. Koyama, Y. Matsuoka and A. Ishii, Simple implementation examples of agent AI in materials science and engineering: STAM-Methods, (2025).]() 
+Koyama, T., Matsuoka, Y., & Ishii, A. (2021). Simple implementation examples of agent AI on free energy calculation and phase-field simulation. Science and Technology of Advanced Materials: Methods. https://doi.org/10.1080/27660400.2025.2601436
 
